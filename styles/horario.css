@@ -1,0 +1,139 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Lilita+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+:root {
+	--verde: rgb(45, 174, 28);
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+header {
+	height: 10vh;
+	background-color: white;
+}
+
+h1 {
+	color: var(--verde);
+}
+
+nav {
+	height: 8vh;
+	background-color: var(--verde);
+	color: white;
+	display: flex;
+}
+
+a {
+	color: white;
+	width: 110px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: rgb(122, 237, 107);
+}
+
+main {
+	height: 70vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+footer {
+	height: 12vh;
+	background-color: black;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+table {
+	font-size: 15px;
+	width: 60vw;
+	height: 64vh;
+	padding: 8px;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+th {
+	font-size: 17px;
+	font-family: "Rubik:ital", sans-serif;
+	border: 4px solid rgb(255, 255, 255);
+	padding: 6px;
+}
+
+td {
+	border: 4px solid rgb(255, 255, 255);
+}
+
+/* Estilo de las clases */
+.programacion {
+	background-color: #d00000;
+}
+
+.basesdedatos {
+	background-color: #0cf574;
+}
+
+.recreo {
+	color: rgb(255, 255, 255);
+	font-family: "Lilita One", cursive;
+	font-weight: bold;
+	background-color: #f59ca9;
+	letter-spacing: 5vw;
+	font-size: 20px;
+}
+
+.sistemasinformaticos {
+	background-color: #ff00aa;
+}
+
+.fol {
+	background-color: #fceb04;
+}
+
+.entornosdedesarrollo {
+	background-color: #51e5ff;
+}
+
+.lenguajesdemarcas {
+	background-color: #a045f5;
+}
+
+.digitalizacionaplicada {
+	background-color: #ff7b00;
+}
+
+.sostenibilidad {
+	background-color: #3a86ff;
+}
+
+.dia,
+.hora {
+	background-color: #57886c;
+	color: white;
+}
+
+.invisible {
+	border: 0px, solid, white;
+}
+
+/*Aumenta la escala de la celda al pasar el ratón por encima*/
+tr :hover {
+	transform: scale(1.1);
+	transition: 0.5s ease-in-out; /*Hace que la transición aparezca lentamente*/
+}

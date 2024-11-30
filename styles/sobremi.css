@@ -7,6 +7,12 @@
 	--verde: rgb(45, 174, 28);
 }
 
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
 header {
 	height: 10vh;
 	background-color: white;
@@ -38,13 +44,15 @@ a:hover {
 
 main {
 	height: 70vh;
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
 }
 
-img {
-	height: 60vh;
+article {
+	margin: 15px;
+}
+
+ul {
+	padding-top: 5px;
+	padding-left: 20px;
 }
 
 footer {
